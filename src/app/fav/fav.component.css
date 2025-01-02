@@ -1,0 +1,28 @@
+/* Centering the entire body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the h2 and div contents */
+h2, div {
+    text-align: center;
+}
+
+/* Optional: Style the ul for better display */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

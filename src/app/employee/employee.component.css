@@ -1,0 +1,42 @@
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between borders */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text */
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table rows */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Zebra striping for rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer; /* Optional for better interactivity */
+}
+
+/* Optional: Add some spacing between the table and surrounding content */
+table {
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}

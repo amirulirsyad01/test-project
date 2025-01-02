@@ -1,0 +1,86 @@
+.FR
+{
+    color: green;
+    /* text-align: center; */
+}
+
+h1{
+    text-align: center;
+}
+
+/* Table Container */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Table Header */
+th {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    padding: 12px; /* Add padding inside header cells */
+    border: 1px solid #ddd; /* Add border around header cells */
+}
+
+/* Table Rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Table Data Cells */
+td {
+    padding: 10px; /* Add padding inside data cells */
+    border: 1px solid #ddd; /* Add border around data cells */
+}
+
+/* Responsive Table */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    th, td {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust the height as needed 
+  } */
+  
+  /* ul { */
+    /* list-style-type: none; Optional: Remove bullet points if needed */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* text-align: center; Optional: Center text inside the list */
+  /* } */
+
+  .FR {
+    color: blue; /* Text color for France */
+  }
+  
+  .EGY {
+    color: red; /* Text color for Egypt */
+  }
+  
+  .CA {
+    color: green; /* Text color for Canada */
+  }
+  
+  /* Default styling for any other case */
+  li {
+    color: black; /* Default text color */
+  }
+  
+  
